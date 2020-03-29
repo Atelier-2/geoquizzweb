@@ -9,7 +9,7 @@
                 <b-navbar-nav>
                     <b-nav-item><b-link href="/"><strong>Accueil</strong></b-link></b-nav-item>
                     <b-nav-item><b-link href="/rules"><strong>Regles</strong></b-link></b-nav-item>
-                    <b-nav-item><b-link href="/about"><strong>About</strong></b-link></b-nav-item>
+                    <!--<b-nav-item><b-link href="/about"><strong>About</strong></b-link></b-nav-item>-->
                 </b-navbar-nav>
             </b-collapse>
         </b-navbar>

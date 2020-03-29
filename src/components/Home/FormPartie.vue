@@ -61,6 +61,7 @@ export default {
           axios.get('/serie/'+this.form.id_serie+'/photos?token='+this.$store.state.token)
           .then((response) => {
             this.$store.commit('setPhotos', response.data);
+            this.$router.push('/partie');
           }).catch(
             error => console.log(error)
           );

@@ -2,6 +2,7 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import Partie from '../views/Partie.vue'
+import Derroulement from '../components/Home/Derroulement.vue'
 
 Vue.use(VueRouter)
 
@@ -12,7 +13,7 @@ const routes = [
     component: Home
   },
   {
-    path: '/',
+    path: '/partie',
     name: 'Partie',
     component: Partie
   },
@@ -20,6 +21,11 @@ const routes = [
     path: '/about',
     name: 'About',
     component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
+  },
+  {
+    path: '/Derroulement',
+    name: 'Derroulement',
+    component: Derroulement
   }
 ]
 

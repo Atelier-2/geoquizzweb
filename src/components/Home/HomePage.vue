@@ -3,7 +3,7 @@
         <div class="content">
             <div>
                 <h1>GEOQUIZZ PLAYER</h1><br>
-                <button type="button" class="btn btn-primary" @click="startGame">Jouer !</button>
+                <button type="button" class="btn btn-primary" @click="startGame">Jouer</button>
             </div>
         </div>
     </div>
@@ -20,9 +20,9 @@ export default {
 }
 </script>
 
-<style lang="scss">
+<style  lang="scss"> 
     body {
-        background-image: url("https://i.pinimg.com/originals/9d/eb/08/9deb08cbac490f5fa43032499f61c581.jpg");
+        //background-image: url("https://i.pinimg.com/originals/9d/eb/08/9deb08cbac490f5fa43032499f61c581.jpg");
         width: 100%;
         height: 90vh;
         background-repeat: no-repeat;
@@ -32,7 +32,7 @@ export default {
     .content {
         margin-top: 40vh;
         text-align: center;
-        color: white;
+        color: #17a2b8;
         div {
             display: inline-block;
             text-align: center;
